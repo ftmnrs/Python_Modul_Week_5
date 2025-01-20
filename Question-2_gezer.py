@@ -9,7 +9,7 @@ class School():
         self.students = students
         self.teachers = teachers
 
-    def add_new_student(self, number=None, student_name=None, student_class=None):
+    def add_new_student(self, student_name=None, student_class=None):
         if not student_name:
             student_name = input("Name of the student: ")
         if not student_class:
