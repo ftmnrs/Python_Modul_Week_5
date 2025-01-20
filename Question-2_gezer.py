@@ -50,6 +50,8 @@ school1.add_new_student(student_name="Ahmet", student_class="10A")
 school1.add_new_student(student_name="Mehmet", student_class="11B")
 school1.add_new_teacher(teacher_name="Ali", branch="Mathematics")
 school1.add_new_teacher(teacher_name="Veli", branch="Physics")
+school1.add_new_student("Mahmut","11-A")
+school1.add_new_teacher("Mukafat","Astrofizik")
 
 print(school1)
 
